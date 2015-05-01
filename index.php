@@ -25,11 +25,11 @@
               </div>
               <div class="modal-body">
                   <div class="form-group form-inline">
-                    <label for="exampleInputName2">Manager: </label>
+                    <label for="exampleInputName2">Manager name: </label>
                     <input type="text" class="form-control" id="manager" placeholder="Jane Doe">
                   </div>
                 <div class="modal-footer">
-                    <button id="save" type="button" class="btn btn-primary">Save changes</button>
+                    <button id="save" type="button" class="btn btn-primary">Start spitting</button>
                 </div>
               </div>
             </div>
