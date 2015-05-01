@@ -39,12 +39,12 @@
         <!-- app start -->
         <div id="app" style="display:none">
             <div class="container-fluid">
-            <div class="row" style="min-height:80%;">
-                <table id="conversation" class="table table-hover">
+            <div id="cid" class="row" style="min-height:80%;">
+                <!--table id="conversation" class="table table-hover">
                     <tbody>
                     <tr class="well"><td class="manamer"></td><td>Hi, what's up?</td></tr>
                     </tbody>
-                </table>
+                </table-->
             </div>
             <div class= "row" style="min-height:20%;">
               <div class= "col-xs-11">
