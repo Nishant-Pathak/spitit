@@ -22,7 +22,7 @@ function managerSays() {
 //    $('#conversation tr:last').after('<tr class="well"></td><td class="manager">' + mName +' -><td><td>' + manager[Math.floor((Math.random() * manager.length) + 1)] + '</td></tr>');
           var d = '  <div class="row well">'
               +  '<div class="col-sm-2">'
-              + '  <img src="./images/manager.png" class="img-circle" style="height:80px; width:80px;">'
+              + '  <span>'+mName+'</span><img src="./images/manager.png" class="img-circle" style="height:80px; width:80px;">'
                + ' </div>'
                +' <div><br>'
                +' <strong>'+ data+'</strong><br>'
@@ -43,7 +43,7 @@ function addRow() {
                +' <strong>'+a.val()+'</strong><br>'
                 +'</div>'
               +  '<div class="col-sm-2">'
-              + '  <img src="./images/employee.png" class="img-circle" style="height:80px; width:80px;">'
+              + '  <img src="./images/employee.png" class="img-circle" style="height:80px; width:80px;"> <span>You</span>'
                + ' </div>'
             +'</div>';
     a.val('');
